@@ -61,6 +61,7 @@
 						<archive>
 							<manifest>
 								<mainClass>com.darwinsys.installers.InstallerUnpacker</mainClass>
+								<addClasspath>true</addClasspath>
 							</manifest>
 							<manifestEntries>
 								<Built-By />

@@ -59,8 +59,10 @@
 					<version>2.3.1</version>
 					<configuration>
 						<archive>
-							<manifestEntries>
+							<manifest>
 								<mainClass>com.darwinsys.installers.InstallerUnpacker</mainClass>
+							</manifest>
+							<manifestEntries>
 								<Built-By />
 								<Specification-Title>YAJInstaller</Specification-Title>
 								<Specification-Version>${project.version}</Specification-Version>

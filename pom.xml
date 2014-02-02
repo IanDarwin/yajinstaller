@@ -66,6 +66,12 @@
 	</build>
 
     <dependencies>
+        <!-- My own Java API potpourri, either installed locally, or on Central thanks to Sonatatype.org -->
+      <dependency>
+	    <groupId>com.darwinsys</groupId>
+        <artifactId>darwinsys-api</artifactId>
+        <version>1.0.3</version>
+      </dependency>
 	  <dependency>
 	    <groupId>junit</groupId>
 	    <artifactId>junit</artifactId>

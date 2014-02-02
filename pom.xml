@@ -55,6 +55,25 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>2.3.1</version>
+					<configuration>
+						<archive>
+							<manifestEntries>
+								<mainClass>com.darwinsys.installers.InstallerUnpacker</mainClass>
+								<Built-By />
+								<Specification-Title>YAJInstaller</Specification-Title>
+								<Specification-Version>${project.version}</Specification-Version>
+								<Implementation-Title>${project.artifactId}</Implementation-Title>
+							</manifestEntries>
+						</archive>
+						<excludes>
+							<exclude>**/package-info.class</exclude>
+						</excludes>
+					</configuration>
+				</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.12</version>
 				<configuration>

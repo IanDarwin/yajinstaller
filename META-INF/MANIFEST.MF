@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Build-Jdk: 1.7.0_21
+Main-Class: com.darwinsys.installers.InstallerUnpacker
+Built-By: 
+Implementation-Title: yajinstaller
+Specification-Title: YAJInstaller
+Specification-Version: 1.0.1-SNAPSHOT
+Class-Path: 
+
